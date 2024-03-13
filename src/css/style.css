@@ -1,5 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 30px auto;
+}
+
 img {
   width: 150px;
+  margin: 0 auto;
+}
+
+input {
+  color: #432000;
+  background-color: #dce1eb;
+  font-family: "Rubik", sans-serif;
+  border: 0;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+button {
+  color: #fdfdfd;
+  background-color: #f15134;
+  font-family: "Rubik", sans-serif;
+  border: 0;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px;
 }
