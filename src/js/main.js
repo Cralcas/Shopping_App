@@ -23,10 +23,13 @@ const shoppingListEl = document.getElementById("shopping-list");
 
 addButtonEl.addEventListener("click", function () {
   let inputValue = inputFIeldEl.value;
+  if (inputValue === "") {
+    inputFIeldEl.placeholder = "Enter item...";
+  } else {
+    push(shoppingListInDB, inputValue);
 
-  push(shoppingListInDB, inputValue);
-
-  clearInputField();
+    clearInputField();
+  }
 });
 
 onValue(shoppingListInDB, function (snapshot) {
