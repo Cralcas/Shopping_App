@@ -16,7 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 300px;
-  margin: 30px auto;
+  margin: 50px auto;
 }
 
 img {
